@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SALINGUARD</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="../assets/images/favicon.jpg">
+ 	<link rel="stylesheet" type="text/css" href="../assets/css/login.css">
+  	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+	<script type="module" src="../assets/js/login.js" defer></script>
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Đăng nhập</label>
+					<input type="email" id="email" placeholder="Email" required>
+					<input type="password" id="password" placeholder="Mật khẩu" required>
+					<button id="submit" type="submit">Login</button>
+				</form>
+			</div>
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Đăng ký</label>
+          			<header>Liên hệ với chúng tôi để lấy tài khoản</header>
+				</form>
+			</div>
+			<canvas class="background" style="z-index: -1; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #000000, #06004a, #000000);"></canvas>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
