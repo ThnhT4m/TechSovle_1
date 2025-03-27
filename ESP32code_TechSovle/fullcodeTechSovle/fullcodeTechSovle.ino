@@ -1,3 +1,4 @@
+
 #include <Arduino.h>
 #include <WiFi.h>               //we are using the ESP32
 #include <Firebase_ESP_Client.h>
@@ -5,12 +6,9 @@
 //Provide the RTDB payload printing info and other helper functions.
 #include "addons/RTDBHelper.h"
 // Insert your network credentials
-#define WIFI_SSID "VTV38 LAU 2"
-#define WIFI_PASSWORD "vtv382024"
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyDM9Nmnq_w3HHWA2SHI2muGO7HkyW33udA"
 // Insert RTDB URLefine the RTDB URL
-#define DATABASE_URL "https://techsovlev1-default-rtdb.firebaseio.com/" 
+#include "config.h"
 #include <LiquidCrystal_I2C.h>
 #define NTC_PIN 33  
 #define SERIES_RESISTOR 10000  // Điện trở nối tiếp 10kΩ
